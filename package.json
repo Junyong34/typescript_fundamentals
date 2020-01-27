@@ -6,10 +6,13 @@
   "dependencies": {
     "typescript": "^3.4.5"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@types/qs": "^6.9.0",
+    "axios": "^0.19.2"
+  },
   "scripts": {
     "transpile": "tsc",
-    "devWatch":  "tsc -w",
+    "devWatch": "tsc -w",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
